@@ -1,0 +1,4 @@
+email,firstName,lastName,departmentName,jobTitle,role,employmentType,startDate,emergencyContactName,emergencyContactRelationship,emergencyContactPhone
+john@company.com,John,Doe,Engineering,Software Engineer,EMPLOYEE,FULL_TIME,2024-01-01T00:00:00.000Z,Jane Doe,Spouse,555-0100
+jane@company.com,Jane,Smith,Product,Product Manager,MANAGER,FULL_TIME,2024-01-01T00:00:00.000Z,John Smith,Spouse,555-0101
+bob@company.com,Bob,Johnson,Sales,Sales Manager,MANAGER,FULL_TIME,2024-01-01T00:00:00.000Z,Alice Johnson,Spouse,555-0102

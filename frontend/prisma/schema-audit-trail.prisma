@@ -1,0 +1,91 @@
+// Audit Trail Schema Addition
+// Add this to your main schema.prisma file for compliance tracking
+// Keeps audit trail for 7 years as per IT Act requirement
+
+model AuditLog {
+  id            String   @id @default(uuid())
+  tenantId      String
+
+  // Who did the action
+  userId        String?
+  userEmail     String
+  userName      String?
+  userRole      String?
+
+  // What action
+  action        AuditAction
+  entity        String        // e.g., "OnboardingInvite", "User", "EmployeeProfile"
+  entityId      String?       // ID of the affected entity
+
+  // Details
+  changes       Json?         // Before/after values
+  metadata      Json?         // Additional context
+  ipAddress     String?
+  userAgent     String?
+
+  // When
+  timestamp     DateTime  @default(now())
+
+  // Compliance
+  retentionUntil DateTime    // 7 years from timestamp
+
+  tenant        Tenant    @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+  user          User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([tenantId])
+  @@index([userId])
+  @@index([entity, entityId])
+  @@index([action])
+  @@index([timestamp])
+  @@index([retentionUntil])
+}
+
+enum AuditAction {
+  // User Management
+  USER_CREATED
+  USER_UPDATED
+  USER_ACTIVATED
+  USER_DEACTIVATED
+  USER_DELETED
+
+  // Onboarding
+  ONBOARDING_INVITED
+  ONBOARDING_STARTED
+  ONBOARDING_DRAFT_SAVED
+  ONBOARDING_SUBMITTED
+  ONBOARDING_APPROVED
+  ONBOARDING_REJECTED
+  ONBOARDING_CHANGES_REQUESTED
+  ONBOARDING_REMINDER_SENT
+
+  // Authentication
+  LOGIN_SUCCESS
+  LOGIN_FAILED
+  LOGOUT
+  PASSWORD_CHANGED
+
+  // Data Access
+  PROFILE_VIEWED
+  DOCUMENT_DOWNLOADED
+  DOCUMENT_UPLOADED
+  SENSITIVE_DATA_ACCESSED
+
+  // Administrative
+  SETTINGS_CHANGED
+  PERMISSION_MODIFIED
+  ROLE_ASSIGNED
+  DEPARTMENT_CREATED
+  DEPARTMENT_UPDATED
+}
+
+// Add relation to User model
+// user {
+//   ...existing fields
+//   auditLogs         AuditLog[]
+// }
+
+// Add relation to Tenant model
+// tenant {
+//   ...existing fields
+//   auditLogs         AuditLog[]
+// }

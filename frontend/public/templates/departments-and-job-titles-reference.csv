@@ -1,0 +1,113 @@
+Department,Job Title,Typical Role,Seniority Level
+Engineering,Chief Technology Officer (CTO),ADMIN,Executive
+Engineering,VP of Engineering,ADMIN,Executive
+Engineering,Engineering Manager,MANAGER,Senior
+Engineering,Senior Software Engineer,EMPLOYEE,Senior
+Engineering,Software Engineer,EMPLOYEE,Mid-Level
+Engineering,Junior Software Engineer,EMPLOYEE,Junior
+Engineering,Full Stack Developer,EMPLOYEE,Mid-Level
+Engineering,Frontend Developer,EMPLOYEE,Mid-Level
+Engineering,Backend Developer,EMPLOYEE,Mid-Level
+Engineering,Mobile Developer,EMPLOYEE,Mid-Level
+Engineering,Staff Engineer,EMPLOYEE,Senior
+Engineering,Principal Engineer,EMPLOYEE,Senior
+Engineering,Lead Engineer,MANAGER,Senior
+Engineering,Software Architect,EMPLOYEE,Senior
+Engineering,Solutions Architect,EMPLOYEE,Senior
+Product,Chief Product Officer (CPO),ADMIN,Executive
+Product,VP of Product,ADMIN,Executive
+Product,Product Manager,MANAGER,Senior
+Product,Senior Product Manager,MANAGER,Senior
+Product,Associate Product Manager,EMPLOYEE,Junior
+Product,Product Owner,EMPLOYEE,Mid-Level
+Product,Product Designer,EMPLOYEE,Mid-Level
+Product,UX Designer,EMPLOYEE,Mid-Level
+Product,UI Designer,EMPLOYEE,Mid-Level
+Product,Product Analyst,EMPLOYEE,Mid-Level
+Sales,Chief Sales Officer (CSO),ADMIN,Executive
+Sales,VP of Sales,ADMIN,Executive
+Sales,Sales Manager,MANAGER,Senior
+Sales,Senior Sales Executive,EMPLOYEE,Senior
+Sales,Sales Executive,EMPLOYEE,Mid-Level
+Sales,Account Executive,EMPLOYEE,Mid-Level
+Sales,Business Development Manager,MANAGER,Senior
+Sales,Sales Representative,EMPLOYEE,Junior
+Sales,Account Manager,EMPLOYEE,Mid-Level
+Sales,Inside Sales Representative,EMPLOYEE,Junior
+Marketing,Chief Marketing Officer (CMO),ADMIN,Executive
+Marketing,VP of Marketing,ADMIN,Executive
+Marketing,Marketing Manager,MANAGER,Senior
+Marketing,Digital Marketing Manager,MANAGER,Senior
+Marketing,Content Marketing Manager,MANAGER,Senior
+Marketing,SEO Specialist,EMPLOYEE,Mid-Level
+Marketing,Digital Marketing Specialist,EMPLOYEE,Mid-Level
+Marketing,Marketing Executive,EMPLOYEE,Mid-Level
+Marketing,Social Media Manager,EMPLOYEE,Mid-Level
+Marketing,Brand Manager,MANAGER,Senior
+Marketing,Growth Marketing Manager,MANAGER,Senior
+Human Resources,Chief Human Resources Officer (CHRO),ADMIN,Executive
+Human Resources,VP of Human Resources,ADMIN,Executive
+Human Resources,HR Manager,HR,Senior
+Human Resources,Head of Human Resources,HR,Executive
+Human Resources,Senior HR Manager,HR,Senior
+Human Resources,HR Executive,HR,Mid-Level
+Human Resources,HR Business Partner,HR,Senior
+Human Resources,Talent Acquisition Manager,HR,Senior
+Human Resources,Recruiter,HR,Mid-Level
+Human Resources,HR Generalist,HR,Mid-Level
+Human Resources,Payroll Specialist,HR,Mid-Level
+Finance,Chief Financial Officer (CFO),ADMIN,Executive
+Finance,VP of Finance,ADMIN,Executive
+Finance,Finance Manager,ACCOUNTANT,Senior
+Finance,Senior Accountant,ACCOUNTANT,Senior
+Finance,Accountant,ACCOUNTANT,Mid-Level
+Finance,Junior Accountant,ACCOUNTANT,Junior
+Finance,Financial Analyst,ACCOUNTANT,Mid-Level
+Finance,Controller,ACCOUNTANT,Executive
+Finance,Finance Executive,ACCOUNTANT,Mid-Level
+Finance,Accounts Payable Specialist,ACCOUNTANT,Mid-Level
+Finance,Accounts Receivable Specialist,ACCOUNTANT,Mid-Level
+Operations,Chief Operating Officer (COO),ADMIN,Executive
+Operations,VP of Operations,ADMIN,Executive
+Operations,Operations Manager,MANAGER,Senior
+Operations,Operations Executive,EMPLOYEE,Mid-Level
+Operations,Business Operations Manager,MANAGER,Senior
+Operations,Process Manager,MANAGER,Mid-Level
+Operations,Project Manager,MANAGER,Mid-Level
+Customer Support,VP of Customer Success,ADMIN,Executive
+Customer Support,Customer Support Manager,MANAGER,Senior
+Customer Support,Customer Support Lead,MANAGER,Senior
+Customer Support,Senior Customer Support Executive,EMPLOYEE,Senior
+Customer Support,Customer Support Executive,EMPLOYEE,Mid-Level
+Customer Support,Customer Success Manager,MANAGER,Senior
+Customer Support,Technical Support Engineer,EMPLOYEE,Mid-Level
+Customer Support,Support Specialist,EMPLOYEE,Junior
+Data & Analytics,Chief Data Officer (CDO),ADMIN,Executive
+Data & Analytics,VP of Data,ADMIN,Executive
+Data & Analytics,Data Science Manager,MANAGER,Senior
+Data & Analytics,Senior Data Scientist,EMPLOYEE,Senior
+Data & Analytics,Data Scientist,EMPLOYEE,Mid-Level
+Data & Analytics,Data Analyst,EMPLOYEE,Mid-Level
+Data & Analytics,Business Intelligence Analyst,EMPLOYEE,Mid-Level
+Data & Analytics,Analytics Manager,MANAGER,Senior
+DevOps,VP of DevOps,ADMIN,Executive
+DevOps,DevOps Manager,MANAGER,Senior
+DevOps,Senior DevOps Engineer,EMPLOYEE,Senior
+DevOps,DevOps Engineer,EMPLOYEE,Mid-Level
+DevOps,Site Reliability Engineer (SRE),EMPLOYEE,Senior
+DevOps,Infrastructure Engineer,EMPLOYEE,Mid-Level
+DevOps,Cloud Engineer,EMPLOYEE,Mid-Level
+QA & Testing,QA Manager,MANAGER,Senior
+QA & Testing,QA Lead,MANAGER,Senior
+QA & Testing,Senior QA Engineer,EMPLOYEE,Senior
+QA & Testing,QA Engineer,EMPLOYEE,Mid-Level
+QA & Testing,Test Automation Engineer,EMPLOYEE,Mid-Level
+QA & Testing,Quality Assurance Analyst,EMPLOYEE,Mid-Level
+QA & Testing,Test Engineer,EMPLOYEE,Mid-Level
+Administration,Chief Executive Officer (CEO),ADMIN,Executive
+Administration,Chief Administrator,ADMIN,Executive
+Administration,Office Manager,EMPLOYEE,Senior
+Administration,Administrative Manager,MANAGER,Senior
+Administration,Executive Assistant,EMPLOYEE,Senior
+Administration,Administrative Assistant,EMPLOYEE,Mid-Level
+Administration,Receptionist,EMPLOYEE,Junior

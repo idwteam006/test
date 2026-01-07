@@ -1,0 +1,6 @@
+email,firstName,lastName,role,jobTitle,departmentName
+admin@company.com,John,Doe,ADMIN,Chief Administrator,Administration
+hr@company.com,Jane,Smith,HR,HR Manager,Human Resources
+manager@company.com,Bob,Johnson,MANAGER,Engineering Manager,Engineering
+accountant@company.com,Alice,Williams,ACCOUNTANT,Senior Accountant,Finance
+employee@company.com,Mike,Brown,EMPLOYEE,Software Engineer,Engineering
